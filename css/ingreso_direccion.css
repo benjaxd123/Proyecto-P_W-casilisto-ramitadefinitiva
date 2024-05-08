@@ -1,23 +1,62 @@
 body {
     background: rgba(255, 255, 255, 0.15);
     background: linear-gradient(120deg, #727272, #adadad);
-    
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+
 }
 
-.volver-btn {
-    background-color: #bdbdbd; 
-    color: #fff; 
-    padding: 2px 5px; 
-    text-decoration: none; 
-    border-radius: 50px; 
-    display: inline-block; 
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
+
+.navbar-expand-lg {
+    background-color:rgb(0, 0, 0) !important; 
 }
+
+.btn-histo{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(99, 99, 99);
+    height: 37px;
+}
+
+.btn-register{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: rgb(99, 99, 99);
+    height: 37px;
+    margin-left: 400px;
+}
+.btn-login{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgb(99, 99, 99);
+    height: 37px;
+    margin-left: 400px;
+}
+.btn btn-primary{
+    margin-left: 1582px;
+}
+.offcanvas-body .btn-login,
+.offcanvas-body .btn-register,
+.offcanvas-body .btn-histo {
+    font-size: 14px; 
+    padding: 9px 10px;
+    margin: -8px; 
+    margin-left: -2px;
+    margin-top: 3px;
+}
+
+
+
+
+/*container*/
 
 .container {
     max-width: 600px;
@@ -79,6 +118,18 @@ input {
 
 } 
 
+.nombre-cliente,
+.apellido-cliente,
+.region,
+.comuna,
+.calle,
+.direccion{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
 .card-number {
     font-size: 20px;
     margin-bottom: 10px;
@@ -104,3 +155,11 @@ input {
         margin-top: 10px;
     }
 }
+
+@media(max-width: 991px){
+    .menulateral{
+        background-color: rgba(0, 0, 0, 0.15);
+        backdrop-filter: blur(10px);
+    }
+    
+} 
